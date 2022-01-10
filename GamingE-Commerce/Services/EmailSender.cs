@@ -9,7 +9,7 @@ namespace AspNetCoreEmailConfirmationSendGrid.Services
     {
         public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
-            var sendGridKey = @"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";
+            var sendGridKey = "ENTER sendGridKey HERE!!";
             return Execute(sendGridKey, subject, htmlMessage, email);
         }
 
@@ -18,7 +18,7 @@ namespace AspNetCoreEmailConfirmationSendGrid.Services
             var client = new SendGridClient(apiKey);
             var msg = new SendGridMessage()
             {
-                From = new EmailAddress("D00114974@student.dkit.ie", "Welcome to BMGames"),
+                From = new EmailAddress("D00234161@student.dkit.ie", "Welcome to BMGames"),
                 Subject = subject,
                 PlainTextContent = message,
                 HtmlContent = message

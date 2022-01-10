@@ -62,7 +62,7 @@ namespace GamingE_Commerce
                 .AddDefaultUI();
 
             services.AddTransient<IEmailSender, EmailSender>(); 
-            services.AddTransient<IImageUpload, ImageUpload>(); //an image upload interface located in Infrastructure folder. Service is located in services folder
+            services.AddTransient<IImageUpload, ImageUpload>(); //an image upload interface located in Infrastructure folder. Service is located in Services folder
 
             services.AddControllersWithViews();
             
@@ -73,8 +73,8 @@ namespace GamingE_Commerce
             services.AddAuthentication()
                .AddGoogle(opts =>
                {
-                   opts.ClientId = "1062457109411-e9kf6pg7o4cj0et3qah4tansp7sdugic.apps.googleusercontent.com";
-                   opts.ClientSecret = "PpMui0usc3KFXhiDS_o6qz9b";
+                   opts.ClientId = "ENTER CLIENT ID HERE";
+                   opts.ClientSecret = "ENTER CLIENT SECRET HERE";
                    opts.SignInScheme = IdentityConstants.ExternalScheme;
                });
 

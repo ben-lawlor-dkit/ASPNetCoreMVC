@@ -8,7 +8,7 @@ namespace GamingE_Commerce.Infrastructure
 {
     public interface IImageUpload
     {
-        //This is an interface for the model ImageUpload in services folder.
+        //This is an interface for the model ImageUpload in Services/ImageUpload.cs.
         //It is used to upload an image to the user profile in Areas/Identity/Pages/Account/Manage/Index.cshtml
         void UploadImage(IFormFile file)
         {

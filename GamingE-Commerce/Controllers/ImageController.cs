@@ -19,7 +19,7 @@ namespace GamingE_Commerce.Controllers
     //the user profile, where we upload the image file as bytes
     //and map them to a new image. 
     //This second approach is found in: 
-    //Areas>Identity>Pages>Account>Manage>Index.cshtml>Index.cshtml.cs
+    //Areas\Identity\Pages\Account\Manage\Index.cshtml\Index.cshtml.cs
 
     public class ImageController : Controller
     {

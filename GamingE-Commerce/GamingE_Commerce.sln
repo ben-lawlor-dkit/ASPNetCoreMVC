@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamingE-Commerce", "GamingE-Commerce.csproj", "{94FBA736-AC18-4BA1-93C8-08381945C9A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamingE_Commerce", "GamingE_Commerce.csproj", "{94FBA736-AC18-4BA1-93C8-08381945C9A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

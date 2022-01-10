@@ -9533,9 +9533,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ben\\Desktop\\MVC2021-BenMarkGinta\\GamingE-Commerce\\GamingE-Commerce.csproj",
-      "projectName": "GamingE-Commerce",
-      "projectPath": "C:\\Users\\Ben\\Desktop\\MVC2021-BenMarkGinta\\GamingE-Commerce\\GamingE-Commerce.csproj",
+      "projectUniqueName": "C:\\Users\\Ben\\Desktop\\MVC2021-BenMarkGinta\\GamingE-Commerce\\GamingE_Commerce.csproj",
+      "projectName": "GamingE_Commerce",
+      "projectPath": "C:\\Users\\Ben\\Desktop\\MVC2021-BenMarkGinta\\GamingE-Commerce\\GamingE_Commerce.csproj",
       "packagesPath": "C:\\Users\\Ben\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ben\\Desktop\\MVC2021-BenMarkGinta\\GamingE-Commerce\\obj\\",
       "projectStyle": "PackageReference",

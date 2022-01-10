@@ -155,9 +155,10 @@ namespace GamingE_Commerce.Areas.Identity.Pages.Account.Manage
                 if (file != null) //If there is an image file to be uploaded, we execute this code
                 {
                     _imageUpload.UploadImage(file); //This is where the image file is uploaded. 
-                    //The conversion is done with the model in the Services folder (Services>ImageUpload) 
-                    //and the interface in the Infrastructure folder (Infrastructure>IImageUpload). 
-                    //Profile images are saved to the uploads folder
+                    //The conversion is done with the model in the Services folder (Services\ImageUpload) 
+                    //and the interface in the Infrastructure folder (Infrastructure\IImageUpload). 
+                    //Profile images are saved to the uploads folder (wwwroot\uploads) 
+                    //as specified by the GetpathAndFileName() method in the model (Services\ImageUpload.cs)
                     var user = await _userManager.GetUserAsync(User);
                     if (user == null)
                     {

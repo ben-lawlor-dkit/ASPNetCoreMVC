@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u8XbDCHnwu5tjy9sARumR2SpkcSV+9B/76mMOQOhDT5/5YAJ0BkcA8HNhNK28Y6eKLCm9UwmMBX0c944AfQLow==",
+  "dgSpecHash": "PHWFo3SQkhaGn29VMXsFEC12GFbUHN6+A2ixQdRnxDwPd3bU5QnSP4XLOKp7pgeTbs3hkfuUqUZ1IGTwXABIqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ben\\Desktop\\MVC2021-BenMarkGinta\\GamingE-Commerce\\GamingE-Commerce.csproj",
+  "projectFilePath": "C:\\Users\\Ben\\Desktop\\MVC2021-BenMarkGinta\\GamingE-Commerce\\GamingE_Commerce.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ben\\.nuget\\packages\\google.api.gax\\3.2.0\\google.api.gax.3.2.0.nupkg.sha512",
     "C:\\Users\\Ben\\.nuget\\packages\\google.api.gax.rest\\3.2.0\\google.api.gax.rest.3.2.0.nupkg.sha512",

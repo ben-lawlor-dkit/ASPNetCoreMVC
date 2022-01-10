@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace GamingE_Commerce.Services
 {
-    //This is a service for uploading images to the user profile
-    //It works with its interface in the Services folder
-    //and the user profile at Areas/Identiy/Pages/Account/Manage/Index.cshtml
+    //This is a service for uploading images to the user profile.
+    //It works with its interface in Infrastructure\IImageUpload.cs
+    //and the user profile in Areas\Identiy\Pages\Account\Manage\Index.cshtml
     public class ImageUpload : IImageUpload
     {
         private IWebHostEnvironment _hostingEnvironment;
@@ -31,7 +31,6 @@ namespace GamingE_Commerce.Services
             {
                 using (Stream input = file.OpenReadStream())
                 {
-
                     int readBytes;
                     while ((readBytes = input.Read(buffer, 0, buffer.Length)) > 0)
                     {
