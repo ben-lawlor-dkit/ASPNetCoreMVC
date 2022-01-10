@@ -1,4 +1,3 @@
-using AspNetCoreEmailConfirmationSendGrid.Services;
 using GamingE_Commerce.Data;
 using GamingE_Commerce.Models;
 using Microsoft.AspNetCore.Builder;
@@ -25,8 +24,9 @@ using System.IO;
 //Designed by Ben Lawlor, Mark Woods and Ginta Kivite
 //2021
 
-//The database table data is located in the databases folder and should be all that is needed to operate the app
-//But please feel free to email any queries to D00234161@student.dkit.ie!
+//Please enter your Client ID and Client Secret for Google Authentication services below
+//and remember to enter your own SendGrid API Key into Services\EmailSender.cs.
+//Feel free to email any queries to D00234161@student.dkit.ie!
 //Have a nice day :) 
 
 namespace GamingE_Commerce

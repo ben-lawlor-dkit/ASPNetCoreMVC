@@ -261,3 +261,4 @@ C:\Users\Ben\Desktop\MVC2021-BenMarkGinta\GamingE-Commerce\obj\Debug\netcoreapp3
 C:\Users\Ben\Desktop\MVC2021-BenMarkGinta\GamingE-Commerce\obj\Debug\netcoreapp3.1\GamingE_Commerce.dll
 C:\Users\Ben\Desktop\MVC2021-BenMarkGinta\GamingE-Commerce\obj\Debug\netcoreapp3.1\GamingE_Commerce.pdb
 C:\Users\Ben\Desktop\MVC2021-BenMarkGinta\GamingE-Commerce\obj\Debug\netcoreapp3.1\GamingE_Commerce.genruntimeconfig.cache
+C:\Users\Ben\Desktop\MVC2021-BenMarkGinta\GamingE-Commerce\obj\Debug\netcoreapp3.1\GamingE_Commerce.csprojAssemblyReference.cache
