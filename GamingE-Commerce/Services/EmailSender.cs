@@ -3,7 +3,7 @@ using SendGrid;
 using SendGrid.Helpers.Mail;
 using System.Threading.Tasks;
 
-namespace AspNetCoreEmailConfirmationSendGrid.Services
+namespace GamingE_Commerce.Services
 {
     public class EmailSender : IEmailSender
     {
