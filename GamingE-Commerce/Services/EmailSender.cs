@@ -9,7 +9,7 @@ namespace GamingE_Commerce.Services
     {
         public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
-            var sendGridKey = "ENTER sendGridKey HERE!!";
+            var sendGridKey = @"ENTER_SENDGRID_KEY_HERE";
             return Execute(sendGridKey, subject, htmlMessage, email);
         }
 
